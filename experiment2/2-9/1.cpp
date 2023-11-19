@@ -8,6 +8,7 @@ int main()
 	{
 		c = c + 0.8 * b;
 	}
-	cout << "平均每天花" << c / a << "元" << endl;
+	cout << "平均每天花" << c / (a-1) << "元" << endl;
 	return 0;
 }
+
